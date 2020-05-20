@@ -562,6 +562,20 @@ a.offer:active,a.offer:hover{text-decoration:none;}*/
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
+#show-comments{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+}
+
+#comments{
+    display: none;
+}
+
+.open{
+    display: block;
+}
+
     @media only screen and (max-width : 992px) {
     .col-md-4 {
         display: none;

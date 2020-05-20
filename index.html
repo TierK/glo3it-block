@@ -7,6 +7,7 @@
     <meta name="description" content="BREAKING">
     <title>BREAKING</title>
     <script src="scripts/jquery.js"></script>
+    <script src="scripts/main.js"></script>
 	<link href="styles/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <meta name="referrer" content="none">
@@ -440,8 +441,9 @@ user is high. As of right now, there are still (37) spots left, so hurry
               </div>
             </i></div>
 <div class="row"></div>
+<button id="show-comments" onclick="toggle()">Click to read the comments</button>
         </div><i>
-        <div class="container comments">
+        <div class="container comments" id="comments">
             <div class="row border-top">
                 <div class="col-md-8">
                     <div class="row recent">
